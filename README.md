@@ -26,4 +26,7 @@ If you're on a different browser, you're looking for an extension that'll let yo
 
 ## Notes
 
-I've yet to polish this, so the feedback the script gives is not very user friendly. Cheers!
+* I've yet to polish this, so the feedback the script gives is not very user friendly. 
+* The text form will only take uPlay usernames. :P
+
+Cheers!
