@@ -55,7 +55,7 @@ function mfa_getUserId(username) {
         },
     })
     .done(function(msg) {
-        if (!msg.profiles[0].userId || msg.profiles[0].userId == "") {
+        if (!msg.profiles[0] || !msg.profiles[0].userId || msg.profiles[0].userId == "") {
             mfa_addMsg("Couldn't find " + username);
             return;
         } else {
@@ -99,7 +99,9 @@ function mfa_main() {
     
     
     for (var i = 0; i < usernames.length; i++) {
-        mfa_getUserId(usernames[i]);
+        if (usernames[i].length) {
+            mfa_getUserId(usernames[i]);
+        }
     }
 }
 
