@@ -18,8 +18,12 @@ If you're on a different browser, you're looking for an extension that'll let yo
 1. [Install](https://raw.githubusercontent.com/3xz/uplay-mass-friend-add/master/uplay_mass_friend_add.user.js) userscript
 2. Go to the Friends section of the Ubisoft Club (For example, https://club.ubi.com/#!/en-GB/friends)
 3. Fill in the text box that appears under the "Enter player's name" search bar. 
-(( Image goes here ))
+![Fill in text form and hit Add Friends](https://raw.githubusercontent.com/3xz/uplay-mass-friend-add/master/add_friends.png)
 4. Hit "Add friends" and wait
 5. Done! -- Hopefully there weren't any errors!
 
 (You will have to refresh the page to see the "pending invitations" number change.)
+
+## Notes
+
+I've yet to polish this, so the feedback the script gives is not very user friendly. Cheers!
