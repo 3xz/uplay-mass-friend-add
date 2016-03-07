@@ -2,7 +2,7 @@
 
 ## About
 
-Adds a <textarea> where you can throw line-break delimited usernames to add to uPlay.
+Adds a \<textarea\> where you can throw line-break delimited usernames to add to uPlay.
 
 ## Installation
 
