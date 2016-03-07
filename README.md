@@ -15,7 +15,7 @@ If you're on a different browser, you're looking for an extension that'll let yo
 
 ## Usage
 
-1. [Install]() userscript
+1. [Install](https://raw.githubusercontent.com/3xz/uplay-mass-friend-add/master/uplay_mass_friend_add.user.js) userscript
 2. Go to the Friends section of the Ubisoft Club (For example, https://club.ubi.com/#!/en-GB/friends)
 3. Fill in the text box that appears under the "Enter player's name" search bar. 
 (( Image goes here ))
