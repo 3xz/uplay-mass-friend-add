@@ -2,7 +2,7 @@
 // @name           Mass Friend Adding
 // @namespace      https://github.com/3xz
 // @description    Add a list of friends into uplay
-// @version        1.0
+// @version        0.1
 // @include        https://club.ubi.com/#!/*/friends
 // @require        https://gist.github.com/raw/2625891/waitForKeyElements.js
 // ==/UserScript==
@@ -88,7 +88,7 @@ function mfa_postUserIds(userId) {
 }
 
 function mfa_addMsg(msg) {
-    var msgDiv = document.getElementById("mfa_usernameListDiv");
+    var msgDiv = document.getElementsByClassName("form-group")[1];
     
     msgDiv.innerHTML = msgDiv.innerHTML + msg + "<br />";
 }
