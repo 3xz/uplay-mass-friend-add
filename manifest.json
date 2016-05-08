@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "uPlay Mass Friend Add",
+  "version": "1.0",
+ 
+  "description": "Adds a <textarea> where you can throw line-break delimited usernames to add to uPlay.",
+  "icons": {
+    //"48": "icons/border-48.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "uplaymassadd@zx3.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://club.ubi.com/#!/*/friends"],
+      "js": ["uplay_mass_friend_add.js"]
+    }
+  ]
+
+}
