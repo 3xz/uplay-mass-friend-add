@@ -14,6 +14,7 @@
         }
 
     IMPORTANT: This function requires your script to have loaded jQuery.
+    Original source: https://gist.githubusercontent.com/raw/2625891/waitForKeyElements.js
 */
 function waitForKeyElements (
     selectorTxt,    /* Required: The jQuery selector string that
