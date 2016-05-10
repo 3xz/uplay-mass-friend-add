@@ -6,7 +6,7 @@
  
   "description": "Adds a <textarea> where you can throw line-break delimited usernames to add to uPlay.",
   "icons": {
-    //"48": "icons/border-48.png"
+    "48": "add_friends.png"
   },
 
   "applications": {
@@ -19,7 +19,7 @@
   "content_scripts": [
     {
       "matches": ["*://club.ubi.com/#!/*/friends"],
-      "js": ["uplay_mass_friend_add.js"]
+      "js": ["jquery-2.2.3.min.js", "waitForKeyElements.js", "uplay_mass_friend_add.js"]
     }
   ]
 

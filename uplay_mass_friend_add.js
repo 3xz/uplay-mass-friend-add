@@ -1,4 +1,4 @@
-waitForKeyElements (".friend-requests-title", embed);
+waitForKeyElements(".friend-requests-title", embed);
 
 function embedElement(element, toEmbed, exec)
 {
