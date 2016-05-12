@@ -1,4 +1,4 @@
-# uPlay Mass Friend Add userscript
+# uPlay Mass Friend Add extension
 
 ## About
 
@@ -6,16 +6,11 @@ Adds a \<textarea\> where you can throw line-break delimited usernames to add to
 
 ## Installation
 
-You will need either:
-
-* [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) (Firefox)
-* [TamperMonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) (Chrome)
-
-If you're on a different browser, you're looking for an extension that'll let you use userscripts.
+You will need a browser that supports Chrome's extensions (Chrome, Firefox 45+, Opera, etc)
 
 ## Usage
 
-1. [Install](https://raw.githubusercontent.com/3xz/uplay-mass-friend-add/master/uplay_mass_friend_add.user.js) userscript
+1. Install
 2. Go to the Friends section of the Ubisoft Club (For example, https://club.ubi.com/#!/en-GB/friends)
 3. Fill in the text box that appears under the "Enter player's name" search bar. 
 ![Fill in text form and hit Add Friends](https://raw.githubusercontent.com/3xz/uplay-mass-friend-add/master/add_friends.png)

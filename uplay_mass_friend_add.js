@@ -1,13 +1,4 @@
-// ==UserScript==
-// @name           Mass Friend Adding
-// @namespace      https://github.com/3xz
-// @description    Add a list of friends into uplay
-// @version        0.1
-// @include        https://club.ubi.com/#!/*/friends
-// @require        https://gist.github.com/raw/2625891/waitForKeyElements.js
-// ==/UserScript==
-
-waitForKeyElements (".friend-requests-title", embed);
+waitForKeyElements(".friend-requests-title", embed);
 
 function embedElement(element, toEmbed, exec)
 {
