@@ -18,7 +18,8 @@
 
   "content_scripts": [
     {
-      "matches": ["*://club.ubi.com/#!/*/friends"],
+      "matches": ["*://club.ubi.com/#!/*/friends", "https://club.ubi.com/*"],
+      "include_globs": ["*club.ubi.com/#!/*/friends"],
       "js": ["jquery-2.2.3.min.js", "waitForKeyElements.js", "uplay_mass_friend_add.js"]
     }
   ]
